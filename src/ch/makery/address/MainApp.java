@@ -1,13 +1,17 @@
 package ch.makery.address;
 
-import java.io.IOException;
-
+import ch.makery.address.model.Person;
+import ch.makery.address.view.PersonOverviewController;
 import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class MainApp extends Application {
 
